@@ -80,7 +80,7 @@ public class StdDrawPractice
     	    double y = Math.cos(t);
     	    StdDraw.point(x,y);
     	    //for each point on the circle, draws a line to another point w/ probability p
-    	    for(double t2 = 0.0; t2 <= 2*Math.PI; t2 += 2*Math.PI/n) 
+    	    for(double t2 = t; t2 <= 2*Math.PI; t2 += 2*Math.PI/n) 
         	{
     	    	StdDraw.setPenRadius(0.001);
     	    	double x2 = Math.sin(t2);
