@@ -20,7 +20,7 @@ public class StdDrawPracticeRunner {
     private static void runWeb() {
         StdDrawPractice.web(16, 0.5);
         waitToAdvance();
-
+        
         StdDrawPractice.web(7, 0);
         waitToAdvance();
 
@@ -37,6 +37,8 @@ public class StdDrawPracticeRunner {
 
     private static void runRose() {
         StdDrawPractice.rose(6);
+        waitToAdvance();
+        StdDrawPractice.rose(5);
         waitToAdvance();
     }
     
